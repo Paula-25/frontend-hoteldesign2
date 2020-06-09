@@ -1,13 +1,13 @@
-main{
-    background: #E5E5E5;
+body{
+    background: rgb(211, 206, 206);
     background-size: contain;
 }
 #section{
     /* martino-pietropoli-Klm6WOXqCME-unsplash 1 */
 
 position: static;
-width: 310px;
-height: 510px;
+width: 250px;
+height: 520px;
 left: 100px;
 right: 600px;
 top: 1000px;
@@ -18,10 +18,10 @@ background-position: center;
 .firstbox{
     /* Rectangle 12 */
 
-/* position: absolute; */
-width: 310px;
-height: 510px;
-left: 336.2px;
+position: absolute;
+width: 255px;
+height: 525px;
+left: 150px;
 top: 20.4px;
 border: 3px solid #1C323A;
 box-sizing: border-box;
@@ -115,19 +115,20 @@ background: #B18B11;
     /* Rectangle 11 */
 
 position: absolute;
-width: 350px;
-height: 600px;
-left: 500px;
+width: 355px;
+height: 605px;
+left: 600px;
 top: 200px;
 border: 3px solid #1C323A; 
 box-sizing: border-box;
+z-index: +1;
 }
 
 #sidny{
     /* sidny-see-P3Lht_zN3AQ-unsplash 1 */
 
 position: static;
-width: 500px;
+width: 600px;
 height: 500px;
 left: 875px;
 top: 8px;
@@ -139,12 +140,13 @@ background-position: center;
     /* Rectangle 11 */
 
 position: absolute;
-width: 600px;
-height: 510px;
-left: 875px;
+width: 603px;
+height: 505px;
+left: 850px;
 top: 8px;
 border: 3px solid #1C323A;
 box-sizing: border-box;
+z-index: -1;
 }
 
 .lastbox{
@@ -153,10 +155,11 @@ box-sizing: border-box;
 position: absolute;
 width: 355px;
 height: 255px;
-right: 300px;
+right: 200px;
 top: 700px;
 border: 3px solid #1C323A;
 box-sizing: border-box;
+z-index: +1;
 }
 
 #hotel{
