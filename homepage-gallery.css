@@ -1,0 +1,267 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  body {
+      background-color: lightgray;
+  }
+  .background {
+      background:#F3F3F3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .container {
+      width: 60%;
+  }
+  .white-background {
+      position: relative;
+      height: 90vh;
+      background: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .imgdiv {
+      background: url('./Design2Images/martino-pietropoli-Klm6WOXqCME-unsplash\ 2.png');
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 70vh;
+      position: absolute;
+      left: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .text {
+      width: 39%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .textdiv {
+      width: 100%;
+      margin-left: 5rem;
+      margin-top: 3rem;
+      height: 70vh;
+  }
+  .text1 {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.5rem;
+      color: #B18B11;
+  
+  }
+  .text2 {
+      font-family: Abhaya Libre ExtraBold;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 3.37rem;
+      color: #000000;
+      padding: .5rem .5rem .5rem 0;
+  }
+  .text3 {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.25rem;
+      color: #000000;
+  }
+  .read-more {
+      margin-top: 1.2rem;
+      display: flex;
+      justify-content: space-between;
+      width: 35%;
+  }
+  .text4 {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 1.37rem;
+      text-align: center;
+      color: #B18B11;
+  }
+  .fas {
+      font-size: 2rem;
+      text-align: left;
+      color: #B18B11; 
+  }
+  
+  .circle {
+    border:2px solid #940000;
+    border-radius:50%;
+    background:rgba(0,0,0,0);
+    color:white;
+    width:100px;
+    height:100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  }
+  .right-arrow {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #940000;
+  }
+  @media screen and (max-width: 1440px) {
+      .textdiv {
+          margin-top: 1rem;
+      }
+      .text1 {
+          font-size: 1.2rem;
+      }
+      .text2 {
+          font-size: 2rem;
+      }
+      .fas {
+          font-size: 1.2rem;
+      }
+      .text4 {
+          font-size: 1.2rem;
+      }
+      .readmore {
+          margin-top: 0.7rem;
+      }
+  
+  }
+  @media screen and (max-width: 1024px) {
+      .text1 {
+          font-size: 1rem;
+      }
+      .text2 {
+          font-size: 1.7rem;
+      }
+      .text3 {
+          font-size: 0.9rem;
+      }
+      .fas {
+          font-size: 1rem;
+      }
+      .text4 {
+          font-size: 1rem;
+      }
+      .textdiv {
+          margin-left: 4rem;
+          margin-top: 1rem;
+      }
+  }
+  @media screen and (max-width: 768px) {
+      .background {
+          display: flex;
+          flex-direction: column;
+      }
+      .imgdiv {
+          left: 0px;
+      }
+      .container {
+          width: 80%;
+      }
+      .text {
+          width: 80%;
+      }
+      .textdiv {
+          margin: 2rem;
+      }
+      .text1 {
+          font-size: 1.2rem;
+      }
+      .text2 {
+          font-size: 2.4rem;
+          padding: .1rem;
+      }
+      .text3 {
+          font-size: 1.1rem;
+      }
+      .fas {
+          font-size: 1.5rem;
+      }
+      .text4 {
+          font-size: 1.1rem;
+      }
+      .read-more {
+          width: 30%;
+      }
+  }
+  @media (max-width: 425px) {
+      .background {
+          display: flex;
+          flex-direction: column;
+      }
+      .imgdiv {
+          left: 0px;
+      }
+      .container {
+          width: 80%;
+      }
+      .text {
+          width: 80%;
+      }
+      .textdiv {
+          margin: 0.5rem;
+      }
+      .text1 {
+          font-size: 1.2rem;
+      }
+      .text2 {
+          font-size: 1.5rem;
+      }
+      .text3 {
+          font-size: 1rem;
+      }
+      .fas {
+          font-size: 1.1rem;
+      }
+      .text4 {
+          font-size: 1rem;
+      }
+      .read-more {
+          margin-top: 0.4rem;
+          width: 45%;
+      }
+  }
+  @media (min-width: 320px) and (max-width: 375px) {
+      .background {
+          display: flex;
+          flex-direction: column;
+      }
+      .imgdiv {
+          left: 0px;
+      }
+      .container {
+          width: 80%;
+      }
+      .text {
+          width: 80%;
+      }
+      .textdiv {
+          margin: 0.5rem;
+      }
+      .text1 {
+          font-size: 0.9rem;
+      }
+      .text2 {
+          font-size: 1.3rem;
+      }
+      .text3 {
+          font-size: 1rem;
+      }
+      .fas {
+          font-size: 1rem;
+      }
+      .text4 {
+          font-size: 0.9rem;
+      }
+      .read-more {
+          margin-top: 0.2rem;
+          width: 45%;
+      }
+  }
