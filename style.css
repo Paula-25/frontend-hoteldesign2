@@ -14,6 +14,20 @@ top: 1000px;
 background-image: url(./assets/images/martino-pietropoli-Klm6WOXqCME-unsplash\ 2.png);
 background-position: center;
 }
+@media (max-device-width:546px){
+    #section{
+        /* martino-pietropoli-Klm6WOXqCME-unsplash 1 */
+    
+    position: absolute;
+    width: 90px;
+    height: 250px;
+    left: 1px;
+    right: 16px;
+    top: 10px;
+    background-image: url(./assets/images/martino-pietropoli-Klm6WOXqCME-unsplash\ 2.png);
+    background-position: center;
+    }
+}
 
 .firstbox{
     /* Rectangle 12 */
@@ -26,6 +40,19 @@ top: 20.4px;
 border: 3px solid #1C323A;
 box-sizing: border-box;
 }
+  @media (max-device-width:546px){
+    .firstbox{
+    
+    position: absolute;
+    width: 100px;
+    height: 250px;
+    left: 20px;
+    top: 20.4px;
+    border: 3px solid #1C323A;
+    box-sizing: border-box;
+    }
+ } 
+/*mobile responsive done*/
 
 
 /* Luxury writing */
@@ -40,7 +67,19 @@ padding: 10px;
 background: #FFFFFF;
 box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.25);
 }
-
+ @media (max-device-width:546px){
+    #landmark{
+        
+    position: absolute;
+    width: 90px;
+    height: 250px;
+    left: 0px;
+    top: 5px;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.25);
+    }
+}
 
 .h5{
     /* Welcome to Karamo Hotel */
@@ -59,6 +98,26 @@ line-height: 169px;
 text-align: justify;
 color: rgb(240, 186, 9);
 }
+@media (max-device-width:546px){
+    .h5{
+       
+    width: 100px;
+    height: 120px;
+    right: 646.57px;
+    top: 1425.17px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6px;
+    line-height: 13px;
+    text-align: justify;
+    color: rgb(240, 186, 9);
+    }
+    
+}
+
+   
 
 .h3{
     /* A Landmark of Luxury */
@@ -76,7 +135,25 @@ font-size: 38px;
 line-height: 35px;
 color: #000000;
 }
-
+@media (max-device-width:546px){
+    .h3{
+    
+    position: absolute;
+    width: 78px;
+    height: 56px;
+    right: 0px;
+    top: 89.9px;
+    
+    font-family: Abhaya Libre ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 10px;
+    color: #000000;
+    }
+}   
+    
+    
 
 .text{
     /* position: absolute; */
@@ -92,7 +169,23 @@ font-size: 20px;
 line-height: 24px;
 color: #000000;
 }
+@media (max-device-width:546px){
+    .text{
+    width: 80px;
+    height: 80px;
+    right: 552.93px;
+    top: 184.5px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5px;
+    line-height: 11px;
+    color: #000000;
+    }
+}
 
+    
 #button{
     /* Frame 1 */
 
@@ -111,6 +204,21 @@ background: #B18B11;
 }
 /*end of text*/
 
+@media (max-device-width:546px){
+    #button{
+        
+    flex-direction: row;
+    padding: 15px 8px;
+    
+    width: 2px;
+    height: 6.24px;
+    right: 60px;
+    background-position:auto;
+    background: #B18B11;
+    }
+}    
+
+
 .secondbox{
     /* Rectangle 11 */
 
@@ -123,6 +231,22 @@ border: 3px solid #1C323A;
 box-sizing: border-box;
 z-index: +1;
 }
+@media (max-device-width:546px){
+    .secondbox{
+    
+    position: absolute;
+    width: 100px;
+    height: 260px;
+    left: 160px;
+    top: 200px;
+    border: 3px solid #1C323A; 
+    box-sizing: border-box;
+    z-index: +1;
+    }
+}
+
+
+    
 
 #sidny{
     /* sidny-see-P3Lht_zN3AQ-unsplash 1 */
@@ -135,7 +259,20 @@ top: 8px;
 background: url(./assets/images/Group\ 12.png);
 background-position: center;
 }
+@media (max-device-width:546px){
+    #sidny{
+    
+    position: static;
+    width: 90px;
+    height: 250px;
+    left: 65px;
+    top: 8px;
+    background: url(./assets/images/Group\ 12.png);
+    background-position: center;
+    }
+} 
 
+    
 .thirdbox{
     /* Rectangle 11 */
 
@@ -148,6 +285,20 @@ border: 3px solid #1C323A;
 box-sizing: border-box;
 z-index: -1;
 }
+@media (max-device-width:546px){
+    .thirdbox{
+    
+    position: absolute;
+    width: 100px;
+    height: 250px;
+    left: 220px;
+    top: 8px;
+    border: 3px solid #1C323A;
+    box-sizing: border-box;
+    z-index: -1;
+    }
+}
+
 
 .lastbox{
     /* Rectangle 30 */
@@ -161,6 +312,19 @@ border: 3px solid #1C323A;
 box-sizing: border-box;
 z-index: +1;
 }
+@media (max-device-width:546px){
+    .lastbox{
+    
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    right: 20px;
+    top: 400px;
+    border: 3px solid #1C323A;
+    box-sizing: border-box;
+    z-index: +1;
+    }
+}
 
 #hotel{
 /* taylor-vick-VhbvP3hQwu8-unsplash 1 */
@@ -173,3 +337,15 @@ top: 20px;
 background: url(./assets/images/Group\ 11.png);
 background-position: center;
 }
+@media (max-device-width:546px){
+    #hotel{
+        
+        position: static;
+        width: 80px;
+        height: 80px;
+        right: 3px;
+        top: 20px;
+        background: url(./assets/images/Group\ 11.png);
+        background-position: center;
+        }  
+    }
