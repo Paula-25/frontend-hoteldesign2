@@ -1,0 +1,172 @@
+main{
+    background: #E5E5E5;
+    background-size: contain;
+}
+#section{
+    /* martino-pietropoli-Klm6WOXqCME-unsplash 1 */
+
+position: static;
+width: 310px;
+height: 510px;
+left: 100px;
+right: 600px;
+top: 1000px;
+background-image: url(./assets/images/martino-pietropoli-Klm6WOXqCME-unsplash\ 2.png);
+background-position: center;
+}
+
+.firstbox{
+    /* Rectangle 12 */
+
+/* position: absolute; */
+width: 310px;
+height: 510px;
+left: 336.2px;
+top: 20.4px;
+border: 3px solid #1C323A;
+box-sizing: border-box;
+}
+
+
+/* Luxury writing */
+#landmark{
+    /* Rectangle 10 */
+position: static;
+width: 350px;
+height: 600px;
+left: 1px;
+top: 50px;
+padding: 10px;
+background: #FFFFFF;
+box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+.h5{
+    /* Welcome to Karamo Hotel */
+
+/* position: absolute; */
+width: 362.7px;
+height: 150.67px;
+right: 646.57px;
+top: 1425.17px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 169px;
+text-align: justify;
+color: rgb(184, 148, 29);
+}
+
+.h3{
+    /* A Landmark of Luxury */
+
+/* position: absolute; */
+width: 250.24px;
+height: 100.67px;
+right: 0px;
+top: 689.9px;
+
+font-family: Abhaya Libre ExtraBold;
+font-style: normal;
+font-weight: 800;
+font-size: 38px;
+line-height: 35px;
+color: #000000;
+}
+
+
+.text{
+    /* position: absolute; */
+width: 300.34px;
+height: 250px;
+right: 552.93px;
+top: 1894.5px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+
+#button{
+    /* Frame 1 */
+
+/* Auto Layout */
+/* display: flex; */
+flex-direction: row;
+padding: 20px 10px;
+
+/* position: absolute; */
+width: 148px;
+height: 66.24px;
+right: 849.55px;
+/* top: 117.59px; */
+background-position: center;
+background: #B18B11;
+}
+/*end of text*/
+
+.secondbox{
+    /* Rectangle 11 */
+
+position: absolute;
+width: 350px;
+height: 600px;
+left: 500px;
+top: 200px;
+border: 3px solid #1C323A; 
+box-sizing: border-box;
+}
+
+#sidny{
+    /* sidny-see-P3Lht_zN3AQ-unsplash 1 */
+
+position: static;
+width: 500px;
+height: 500px;
+left: 875px;
+top: 8px;
+background: url(./assets/images/Group\ 12.png);
+background-position: center;
+}
+
+.thirdbox{
+    /* Rectangle 11 */
+
+position: absolute;
+width: 600px;
+height: 510px;
+left: 875px;
+top: 8px;
+border: 3px solid #1C323A;
+box-sizing: border-box;
+}
+
+.lastbox{
+    /* Rectangle 30 */
+
+position: absolute;
+width: 355px;
+height: 255px;
+right: 300px;
+top: 700px;
+border: 3px solid #1C323A;
+box-sizing: border-box;
+}
+
+#hotel{
+/* taylor-vick-VhbvP3hQwu8-unsplash 1 */
+
+position: static;
+width: 350px;
+height: 250px;
+right: 350px;
+top: 20px;
+background: url(./assets/images/Group\ 11.png);
+background-position: center;
+}
