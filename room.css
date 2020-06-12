@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+.container {
+    width: 100%;
+    padding: 5% 10%;
+    height: 100%;
+}
+
+.rooms {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    background-color: #1C323A;
+
+}
+
+.rooms-desc {
+    width: 100%;
+    padding: 5%;
+    height: auto;
+
+    text-align: center;
+}
+
+.rooms-desc h2 {
+    margin: 2rem auto;
+    color: #B18B11;
+    border-bottom: solid 2px #B18B11;
+}
+
+.rooms-desc p {
+    color: #fff;
+    margin: auto;
+    line-height: 1.5rem;
+
+}
+
+.slide-container {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+
+#room1 {
+    width: 100%;
+    height: 40vh;
+    background: url('assets/r1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#room2 {
+    width: 100%;
+    height: 40vh;
+    background: url('assets/r2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#room3 {
+    width: 100%;
+    height: 40vh;
+    background: url('assets/r3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slide {
+    position: relative;
+    /* width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.slide-text {
+    position: absolute;
+    height: auto;
+    padding: 3%;
+    background-color: rgba(177, 140, 17, 0.733);
+    color: #fff;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.room-desc {
+    width: 100%;
+    overflow: auto;
+}
+
+.cta-cost {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-btn {
+    width: 130px;
+    background-color: #B18B11;
+    border: solid 2px #fff;
+    padding: 3% 5%;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.thumbs {
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.thumb {
+    width: 30%;
+    margin-top: 2%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.opaque {
+    opacity: .5;
+}
+
+.clear {
+    opacity: 1;
+}
+
+.thumb:hover {
+    opacity: 1;
+}
+
+#thumb1 {
+    background: url('assets/r1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#thumb2 {
+    background: url('assets/r2.jpg');
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#thumb3 {
+    background: url('assets/r3.png');
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@media screen and (min-width: 320px) {
+    .rooms-desc p {
+        width: 80%;
+    }
+
+    .rooms-desc h2 {
+        width: 80%;
+    }
+
+    .slide-text {
+        width: 100%;
+        left: 0;
+    }
+
+    .room-desc {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rooms-desc p {
+        width: 40%;
+    }
+
+    .rooms-desc h2 {
+        width: 50%;
+    }
+
+    .slide-text {
+        left: 50%;
+        width: 50%;
+    }
+
+    .room-desc {
+        display: block;
+    }
+}
